@@ -1,0 +1,51 @@
+/ {
+    chosen {
+        zmk,keyboard = &direct_keys;  /* Ensure ZMK knows where the keys are */
+        zmk,studio = &keymap;  /* Expose the keymap for ZMK Studio */
+    };
+};
+/ {
+    &direct_keys {
+        compatible = "zmk,direct-keys";  /* Enable the direct keys driver */
+        status = "okay";
+
+        key-0 {
+            gpios = <&gpio0 3 GPIO_ACTIVE_LOW>;  /* First key on GPIO 3 */
+            label = "KEY_1";
+        };
+
+        key-1 {
+            gpios = <&gpio0 4 GPIO_ACTIVE_LOW>;  /* Second key on GPIO 4 */
+            label = "KEY_2";
+        };
+
+        key-2 {
+            gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;  /* Third key on GPIO 5 */
+            label = "KEY_3";
+        };
+
+        key-3 {
+            gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;  /* Fourth key on GPIO 6 */
+            label = "KEY_4";
+        };
+        key-4 {
+            gpios = <&gpio0 26 GPIO_ACTIVE_LOW>;  /* First key on GPIO 26 */
+            label = "KEY_5";
+        };
+
+        key-5 {
+            gpios = <&gpio0 27 GPIO_ACTIVE_LOW>;  /* Second key on GPIO 27 */
+            label = "KEY_6";
+        };
+
+        key-6 {
+            gpios = <&gpio0 28 GPIO_ACTIVE_LOW>;  /* Third key on GPIO 28 */
+            label = "KEY_7";
+        };
+
+        key-7 {
+            gpios = <&gpio0 29 GPIO_ACTIVE_LOW>;  /* Fourth key on GPIO 29 */
+            label = "KEY_8";
+        };
+    };
+};
