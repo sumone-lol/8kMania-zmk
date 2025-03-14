@@ -6,7 +6,7 @@
 };
 / {
     &direct_keys {
-        compatible = "zmk,direct-keys";
+        compatible = "zmk,kscan-gpio-direct";
         status = "okay";
 
         key-0 {
