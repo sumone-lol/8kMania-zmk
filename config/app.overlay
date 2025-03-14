@@ -1,8 +1,20 @@
-&studio_unlock
 / {
-    &kscan {
+    &studio_unlock
+}
+
+/ {
+    kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
-        input-gpios = <&gpio0 3 GPIO_ACTIVE_LOW>, <&gpio0 4 GPIO_ACTIVE_LOW>, <&gpio0 5 GPIO_ACTIVE_LOW>, <&gpio0 6 GPIO_ACTIVE_LOW>, <&gpio0 26 GPIO_ACTIVE_LOW>, <&gpio0 27 GPIO_ACTIVE_LOW>, <&gpio0 28 GPIO_ACTIVE_LOW>, <&gpio0 29 GPIO_ACTIVE_LOW>;
-        status = "okay";
+        wakeup-source;
+        input-gpios
+            = <&gpio 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio 26 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio 27 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio 28 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            ;
     };
 };
