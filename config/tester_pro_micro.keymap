@@ -8,7 +8,7 @@
             bindings = <&kp S>,  /* GPIO 3 → Sends 'S' */
                        <&kp D>,  /* GPIO 4 → Sends 'D' */
                        <&kp F>,  /* GPIO 5 → Sends 'F' */
-                       <&kp V>;  /* GPIO 6 → Sends 'V' */
+                       <&kp V>,  /* GPIO 6 → Sends 'V' */
                        <&kp N>,  /* GPIO 26 → Sends 'N' */
                        <&kp J>,  /* GPIO 27 → Sends 'J' */
                        <&kp K>,  /* GPIO 28 → Sends 'K' */
@@ -18,7 +18,7 @@
             bindings = <&kp S>,  /* GPIO 3 → Sends 'S' */
                        <&kp D>,  /* GPIO 4 → Sends 'D' */
                        <&kp F>,  /* GPIO 5 → Sends 'F' */
-                       <&kp V>;  /* GPIO 6 → Sends 'V' */
+                       <&kp V>,  /* GPIO 6 → Sends 'V' */
                        <&kp N>,  /* GPIO 26 → Sends 'N' */
                        <&kp J>,  /* GPIO 27 → Sends 'J' */
                        <&kp K>,  /* GPIO 28 → Sends 'K' */
@@ -28,7 +28,7 @@
             bindings = <&kp S>,  /* GPIO 3 → Sends 'S' */
                        <&kp D>,  /* GPIO 4 → Sends 'D' */
                        <&kp F>,  /* GPIO 5 → Sends 'F' */
-                       <&kp V>;  /* GPIO 6 → Sends 'V' */
+                       <&kp V>,  /* GPIO 6 → Sends 'V' */
                        <&kp N>,  /* GPIO 26 → Sends 'N' */
                        <&kp J>,  /* GPIO 27 → Sends 'J' */
                        <&kp K>,  /* GPIO 28 → Sends 'K' */
@@ -38,7 +38,7 @@
             bindings = <&kp S>,  /* GPIO 3 → Sends 'S' */
                        <&kp D>,  /* GPIO 4 → Sends 'D' */
                        <&kp F>,  /* GPIO 5 → Sends 'F' */
-                       <&kp V>;  /* GPIO 6 → Sends 'V' */
+                       <&kp V>,  /* GPIO 6 → Sends 'V' */
                        <&kp N>,  /* GPIO 26 → Sends 'N' */
                        <&kp J>,  /* GPIO 27 → Sends 'J' */
                        <&kp K>,  /* GPIO 28 → Sends 'K' */
