@@ -1,14 +1,8 @@
-/ {
-    chosen {
-        zmk,keyboard = &direct_keys;  /* Ensure ZMK knows where the keys are */
-        zmk,studio = &keymap;  /* Expose the keymap for ZMK Studio */
-    };
-};
+&studio_unlock
 / {
     &kscan {
         compatible = "zmk,kscan-gpio-direct";
-        status = "okay";
         input-gpios = <&gpio0 3 GPIO_ACTIVE_LOW>, <&gpio0 4 GPIO_ACTIVE_LOW>, <&gpio0 5 GPIO_ACTIVE_LOW>, <&gpio0 6 GPIO_ACTIVE_LOW>, <&gpio0 26 GPIO_ACTIVE_LOW>, <&gpio0 27 GPIO_ACTIVE_LOW>, <&gpio0 28 GPIO_ACTIVE_LOW>, <&gpio0 29 GPIO_ACTIVE_LOW>;
-
+        status = "okay";
     };
 };
