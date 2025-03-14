@@ -20,4 +20,3 @@
 ---
 include:
   - board: rpi_pico
-    shield: tester_pro_micro
