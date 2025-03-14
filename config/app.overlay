@@ -6,7 +6,7 @@
 };
 / {
     &direct_keys {
-        compatible = "zmk,direct-keys";  /* Enable the direct keys driver */
+        compatible = "zmk,direct-keys";
         status = "okay";
 
         key-0 {
