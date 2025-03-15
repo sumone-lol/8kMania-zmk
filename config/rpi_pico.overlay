@@ -1,5 +1,5 @@
 / {
-    kscan0: &scan {
+    kscan0: &kscan {
         compatible = "zmk,kscan-gpio-direct";
         label = "KSCAN";
         input-gpios =
