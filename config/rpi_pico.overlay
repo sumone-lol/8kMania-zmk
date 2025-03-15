@@ -2,23 +2,21 @@
     &studio_unlock {
         status = "okay";
     };
-    
+
     &kscan {
         compatible = "zmk,kscan-gpio-direct";
         label = "KSCAN";
-        input-gpios
-            = <&gpio0 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio0 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio0 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio0 26 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio0 27 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio0 28 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            ;
+        input-gpios =
+            <&gpio0 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio0 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio0 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio0 26 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio0 27 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio0 28 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+            <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         debounce-press-ms = <0>;
         debounce-release-ms = <2>;
-
         zmk,matrix-transform = <0 1 2 3 4 5 6 7>;
     };
 };
