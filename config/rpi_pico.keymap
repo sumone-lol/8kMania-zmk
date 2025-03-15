@@ -1,6 +1,12 @@
 #include <behaviors.dtsi>
 
 / {
+    chosen {
+        zmk,matrix-transform = &kscan;
+    };
+};
+
+/ {
     keymap {
         compatible = "zmk,keymap";
 
