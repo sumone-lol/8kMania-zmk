@@ -3,14 +3,14 @@
         compatible = "zmk,kscan-gpio-direct";
         label = "KSCAN";
         input-gpios
-            = <&gpio 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio 26 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio 27 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio 28 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&gpio 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            = <&gpio0 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 26 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 27 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 28 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
         debounce-press-ms = <0>;
         debounce-release-ms = <2>;
