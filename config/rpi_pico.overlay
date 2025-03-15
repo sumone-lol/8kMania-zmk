@@ -3,7 +3,7 @@
         status = "okay";
     };
 
-    &kscan {
+    kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         label = "KSCAN";
         input-gpios =
