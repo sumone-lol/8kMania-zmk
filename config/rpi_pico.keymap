@@ -1,14 +1,6 @@
 #include <behaviors.dtsi>
 
 / {
-    chosen {
-        &studio_unlock {
-            compatible = "zmk,studio-unlock";
-        };
-    };
-};
-
-/ {
     keymap {
         compatible = "zmk,keymap";
 
