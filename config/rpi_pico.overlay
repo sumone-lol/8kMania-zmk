@@ -1,8 +1,4 @@
 / {
-    &studio_unlock {
-        status = "okay";
-    };
-
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         label = "KSCAN";

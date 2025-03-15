@@ -3,6 +3,7 @@
 / {
     chosen {
         zmk,matrix-transform = &kscan;
+        zmk,studio-unlock = &studio_unlock;
     };
 };
 
