@@ -5,44 +5,44 @@
         compatible = "zmk,keymap";
 
         layer0 {
-            bindings = <&kp S>,  /* GPIO 3 → Sends 'S' */
-                       <&kp D>,  /* GPIO 4 → Sends 'D' */
-                       <&kp F>,  /* GPIO 5 → Sends 'F' */
-                       <&kp V>,  /* GPIO 6 → Sends 'V' */
-                       <&kp N>,  /* GPIO 26 → Sends 'N' */
-                       <&kp J>,  /* GPIO 27 → Sends 'J' */
-                       <&kp K>,  /* GPIO 28 → Sends 'K' */
-                       <&kp L>;  /* GPIO 29 → Sends 'L' */
+            bindings = <&kp S>,
+                       <&kp D>,
+                       <&kp F>,
+                       <&kp V>,
+                       <&kp N>,
+                       <&kp J>,
+                       <&kp K>,
+                       <&kp L>;
         };
         layer1 {
-            bindings = <&kp S>,  /* GPIO 3 → Sends 'S' */
-                       <&kp D>,  /* GPIO 4 → Sends 'D' */
-                       <&kp F>,  /* GPIO 5 → Sends 'F' */
-                       <&kp V>,  /* GPIO 6 → Sends 'V' */
-                       <&kp N>,  /* GPIO 26 → Sends 'N' */
-                       <&kp J>,  /* GPIO 27 → Sends 'J' */
-                       <&kp K>,  /* GPIO 28 → Sends 'K' */
-                       <&kp L>;  /* GPIO 29 → Sends 'L' */
+            bindings = <&kp S>,
+                       <&kp D>,
+                       <&kp F>,
+                       <&kp V>,
+                       <&kp N>,
+                       <&kp J>,
+                       <&kp K>,
+                       <&kp L>;
         };
         layer2 {
-            bindings = <&kp S>,  /* GPIO 3 → Sends 'S' */
-                       <&kp D>,  /* GPIO 4 → Sends 'D' */
-                       <&kp F>,  /* GPIO 5 → Sends 'F' */
-                       <&kp V>,  /* GPIO 6 → Sends 'V' */
-                       <&kp N>,  /* GPIO 26 → Sends 'N' */
-                       <&kp J>,  /* GPIO 27 → Sends 'J' */
-                       <&kp K>,  /* GPIO 28 → Sends 'K' */
-                       <&kp L>;  /* GPIO 29 → Sends 'L' */
+            bindings = <&kp S>,
+                       <&kp D>,
+                       <&kp F>,
+                       <&kp V>,
+                       <&kp N>,
+                       <&kp J>,
+                       <&kp K>,
+                       <&kp L>;
         };
         layer3 {
-            bindings = <&kp S>,  /* GPIO 3 → Sends 'S' */
-                       <&kp D>,  /* GPIO 4 → Sends 'D' */
-                       <&kp F>,  /* GPIO 5 → Sends 'F' */
-                       <&kp V>,  /* GPIO 6 → Sends 'V' */
-                       <&kp N>,  /* GPIO 26 → Sends 'N' */
-                       <&kp J>,  /* GPIO 27 → Sends 'J' */
-                       <&kp K>,  /* GPIO 28 → Sends 'K' */
-                       <&kp L>;  /* GPIO 29 → Sends 'L' */
+            bindings = <&kp S>,
+                       <&kp D>,
+                       <&kp F>,
+                       <&kp V>,
+                       <&kp N>,
+                       <&kp J>,
+                       <&kp K>,
+                       <&kp L>;
         };
     };
 };

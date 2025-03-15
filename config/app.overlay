@@ -1,8 +1,10 @@
 / {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+    
     &studio_unlock
-}
 
-/ {
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
