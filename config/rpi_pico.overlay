@@ -14,14 +14,14 @@
         debounce-release-ms = <2>;
         poll-period-ms = <1>;
         zmk,matrix-transform = <
-            RC(0,0)
-            RC(0,1)
-            RC(0,2)
-            RC(0,3)
-            RC(0,4)
-            RC(0,5)
-            RC(0,6)
-            RC(0,7)
+            0
+            1
+            2
+            3
+            4
+            5
+            6
+            7
         >;
     };
 };
