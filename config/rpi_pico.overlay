@@ -1,7 +1,6 @@
 / {
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
-        label = "KSCAN";
         input-gpios =
             <&gpio0 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
             <&gpio0 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
@@ -13,6 +12,5 @@
             <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         debounce-press-ms = <0>;
         debounce-release-ms = <2>;
-        zmk,matrix-transform = <0 1 2 3 4 5 6 7>;
     };
 };
