@@ -2,7 +2,9 @@
 
 / {
     chosen {
-        zmk,studio-unlock = &studio_unlock;
+        &studio_unlock {
+            compatible = "zmk,studio-unlock";
+        };
     };
 };
 
