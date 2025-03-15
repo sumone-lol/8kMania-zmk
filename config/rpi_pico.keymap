@@ -2,7 +2,7 @@
 
 / {
     chosen {
-        zmk,matrix-transform = &kscan;
+        zmk,matrix-transform = kscan0;
         zmk,studio-unlock = &studio_unlock;
     };
 };
