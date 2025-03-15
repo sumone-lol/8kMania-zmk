@@ -1,4 +1,8 @@
 / {
+    &studio_unlock {
+        status = "okay";
+    };
+    
     &kscan {
         compatible = "zmk,kscan-gpio-direct";
         label = "KSCAN";
@@ -17,8 +21,4 @@
 
         zmk,matrix-transform = <0 1 2 3 4 5 6 7>;
     };
-};
-
-/ {
-    &studio_unlock
 };
