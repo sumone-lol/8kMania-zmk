@@ -1,6 +1,10 @@
 #include <behaviors.dtsi>
 
 / {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+    
     keymap {
         compatible = "zmk,keymap";
         layer0 {
