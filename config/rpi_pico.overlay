@@ -14,7 +14,4 @@
         debounce-release-ms =  <2>;
         poll-period-ms = <1>;
     };
-    zephyr_udc0: &usbd {
-        status = "okay";
-    };
 };
