@@ -9,52 +9,56 @@
     keymap {
         compatible = "zmk,keymap";
         layer0 {
-            bindings =
-                <&kp S>,
-                <&kp D>,
-                <&kp F>,
-                <&kp V>,
-                <&kp N>,
-                <&kp J>,
-                <&kp K>,
-                <&kp L>;
-                <&studio_unlock>
+            bindings = <
+                &kp S
+                &kp D
+                &kp F
+                &kp V
+                &kp N
+                &kp J
+                &kp K
+                &kp L
+                &studio_unlock
+            >;
         };
         layer1 {
-            bindings =
-                <&kp S>,
-                <&kp D>,
-                <&kp F>,
-                <&kp V>,
-                <&kp N>,
-                <&kp J>,
-                <&kp K>,
-                <&kp L>;
-                <&studio_unlock>
+            bindings = <
+                &kp S
+                &kp D
+                &kp F
+                &kp V
+                &kp N
+                &kp J
+                &kp K
+                &kp L
+                &studio_unlock
+            >;
         };
         layer2 {
-            bindings =
-                <&kp S>,
-                <&kp D>,
-                <&kp F>,
-                <&kp V>,
-                <&kp N>,
-                <&kp J>,
-                <&kp K>,
-                <&kp L>;
-                <&studio_unlock>
+            bindings = <
+                &kp S
+                &kp D
+                &kp F
+                &kp V
+                &kp N
+                &kp J
+                &kp K
+                &kp L
+                &studio_unlock
+            >;
         };
         layer3 {
-            bindings =
-                <&kp S>,
-                <&kp D>,
-                <&kp F>,
-                <&kp V>,
-                <&kp N>,
-                <&kp J>,
-                <&kp K>,
-                <&kp L>;
-                <&studio_unlock>
+            bindings = <
+                &kp S
+                &kp D
+                &kp F
+                &kp V
+                &kp N
+                &kp J
+                &kp K
+                &kp L
+                &studio_unlock
+            >;
         };
     };
 
