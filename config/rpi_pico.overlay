@@ -21,4 +21,9 @@
         columns = <8>;
         map = <0 1 2 3 4 5 6 7>;
     };
+
+    &zephyr_udc0 {
+	snippet_cdc_acm_console_uart: snippet_cdc_acm_console_uart {
+		compatible = "zephyr,cdc-acm-uart";
+	};
 };
