@@ -1,10 +1,21 @@
 / {
-    zephyr_udc0: &usbd {
-        compatible = "usb-role-switch";
+    &usb {
         status = "okay";
-        dr_mode = "device";
+        zephyr_udc0: udc0 {
+            compatible = "zephyr,usb-device-controller";
+            status = "okay";
+        };
     };
 
+    &zephyr_udc0 {
+        status = "okay";
+    };
+
+    &hid_kbd {
+        compatible = "zmk,usb-hid-device";
+        status = "okay";
+    };
+    
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         input-gpios =
