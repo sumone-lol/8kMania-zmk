@@ -1,13 +1,4 @@
 / {
-    &zephyr_udc0 {
-        status = "okay";
-    };
-
-    &hid_kbd {
-        compatible = "zmk,usb-hid-device";
-        status = "okay";
-    };
-
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         input-gpios =
