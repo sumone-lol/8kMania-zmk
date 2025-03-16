@@ -4,7 +4,6 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        &studio_unlock;
     };
 
     keymap {
@@ -19,6 +18,7 @@
                 <&kp J>,
                 <&kp K>,
                 <&kp L>;
+                <&studio_unlock>
         };
         layer1 {
             bindings =
@@ -30,6 +30,7 @@
                 <&kp J>,
                 <&kp K>,
                 <&kp L>;
+                <&studio_unlock>
         };
         layer2 {
             bindings =
@@ -41,6 +42,7 @@
                 <&kp J>,
                 <&kp K>,
                 <&kp L>;
+                <&studio_unlock>
         };
         layer3 {
             bindings =
@@ -52,6 +54,7 @@
                 <&kp J>,
                 <&kp K>,
                 <&kp L>;
+                <&studio_unlock>
         };
     };
 
