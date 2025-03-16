@@ -14,4 +14,11 @@
         debounce-release-ms =  <2>;
         poll-period-ms = <1>;
     };
+
+    default_transform: matrix_transform {
+        compatible = "zmk,matrix-transform";
+        rows = <1>;
+        columns = <8>;
+        map = <0 1 2 3 4 5 6 7>;
+    }
 };
