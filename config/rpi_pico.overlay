@@ -1,8 +1,4 @@
 / {
-    chosen {
-		zephyr,console = &snippet_cdc_acm_console_uart;
-		zephyr,shell-uart = &snippet_cdc_acm_console_uart;
-	};
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         input-gpios =
