@@ -1,5 +1,6 @@
 / {
-    usb {
+    usbd: usb {
+        compatible = "usb-role-switch";
         status = "okay";
         dr_mode = "device";
     };
