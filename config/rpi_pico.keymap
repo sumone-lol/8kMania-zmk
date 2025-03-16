@@ -3,7 +3,6 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,studio-unlock = &studio_unlock;
     };
 
     keymap {
