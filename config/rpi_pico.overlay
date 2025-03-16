@@ -5,7 +5,7 @@
         dr_mode = "device";
     };
 
-    zephyr_udc0: &usbd {
+    zephyr_udc0: usbd {
         compatible = "usb-role-switch";
         status = "okay";
         dr_mode = "device";
