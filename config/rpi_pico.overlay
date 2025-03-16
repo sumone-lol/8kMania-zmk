@@ -1,6 +1,13 @@
 / {
-    zephyr_udc0: &usbd {
+    &usb {
         status = "okay";
+        dr_mode = "device";
+    }
+
+    zephyr_udc0: usbd {
+        compatible = "usb-role-switch";
+        status = "okay";
+        dr_mode = "device";
     };
 
     kscan0: kscan {
