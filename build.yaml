@@ -22,3 +22,6 @@ include:
   - board: rpi_pico
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: rpi_pico
+    snippet: usb-cdc-acm
+    cmake-args: -DCONFIG_USB_DEVICE_CDC_ACM=y
