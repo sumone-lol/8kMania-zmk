@@ -4,6 +4,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
+        &studio_unlock;
     };
 
     keymap {
