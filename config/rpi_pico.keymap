@@ -53,4 +53,5 @@
                 <&kp L>;
         };
     };
+    studio_unlock: studio_unlock {};
 };
