@@ -56,7 +56,7 @@
 
     physical-layout {
         compatible = "zmk,physical-layout";
-
+        display-name = "8kMania";
         key-positions = <
             0  0
             20 0
