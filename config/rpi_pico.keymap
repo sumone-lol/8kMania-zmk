@@ -1,4 +1,5 @@
 #include <behaviors.dtsi>
+#include <physical_layouts.dtsi>
 
 / {
     chosen {
@@ -51,5 +52,20 @@
                 <&kp K>,
                 <&kp L>;
         };
+    };
+
+    physical-layout {
+        compatible = "zmk,physical-layout";
+
+        key-positions = <
+            0  0
+            20 0
+            40 20
+            40 40
+            50 40
+            50 20
+            70 0
+            90 0
+        >;
     };
 };
