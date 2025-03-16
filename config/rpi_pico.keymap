@@ -4,10 +4,43 @@
     chosen {
         zmk,kscan = &kscan0;
     };
-    
+
     keymap {
         compatible = "zmk,keymap";
         layer0 {
+            bindings =
+                <&kp S>,
+                <&kp D>,
+                <&kp F>,
+                <&kp V>,
+                <&kp N>,
+                <&kp J>,
+                <&kp K>,
+                <&kp L>;
+        };
+        layer1 {
+            bindings =
+                <&kp S>,
+                <&kp D>,
+                <&kp F>,
+                <&kp V>,
+                <&kp N>,
+                <&kp J>,
+                <&kp K>,
+                <&kp L>;
+        };
+        layer2 {
+            bindings =
+                <&kp S>,
+                <&kp D>,
+                <&kp F>,
+                <&kp V>,
+                <&kp N>,
+                <&kp J>,
+                <&kp K>,
+                <&kp L>;
+        };
+        layer3 {
             bindings =
                 <&kp S>,
                 <&kp D>,
