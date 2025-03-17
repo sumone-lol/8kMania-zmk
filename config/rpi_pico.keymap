@@ -10,6 +10,7 @@
         compatible = "zmk,keymap";
         layer0 {
             bindings = <
+                &studio_unlock
                 &kp S
                 &kp D
                 &kp F
@@ -18,7 +19,6 @@
                 &kp J
                 &kp K
                 &kp L
-                &studio_unlock
             >;
         };
         layer1 {
@@ -31,7 +31,6 @@
                 &kp J
                 &kp K
                 &kp L
-                &studio_unlock
             >;
         };
         layer2 {
@@ -44,7 +43,6 @@
                 &kp J
                 &kp K
                 &kp L
-                &studio_unlock
             >;
         };
         layer3 {
@@ -57,7 +55,6 @@
                 &kp J
                 &kp K
                 &kp L
-                &studio_unlock
             >;
         };
     };
