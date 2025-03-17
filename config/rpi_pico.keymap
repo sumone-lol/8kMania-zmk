@@ -1,11 +1,10 @@
 #include <behaviors.dtsi>
 #include <physical_layouts.dtsi>
 
-&studio_unlock {};
-
 / {
     chosen {
         zmk,kscan = &kscan0;
+        &studio_unlock {};
     };
 
     keymap {
