@@ -10,7 +10,6 @@
         compatible = "zmk,keymap";
         layer0 {
             bindings = <
-                &studio_unlock
                 &kp S
                 &kp D
                 &kp F
