@@ -4,8 +4,10 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        &studio_unlock {};
+        
     };
+
+    &studio_unlock {};
 
     keymap {
         compatible = "zmk,keymap";
