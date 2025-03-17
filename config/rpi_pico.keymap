@@ -4,14 +4,12 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        
     };
-
-    &studio_unlock {};
 
     keymap {
         compatible = "zmk,keymap";
         layer0 {
+            display-name = "Layer 1";
             bindings = <
                 &kp S
                 &kp D
@@ -21,9 +19,10 @@
                 &kp J
                 &kp K
                 &kp L
-            >;
+            >,<&studio_unlock>;
         };
         layer1 {
+            display-name = "Layer 2";
             bindings = <
                 &kp S
                 &kp D
@@ -33,9 +32,10 @@
                 &kp J
                 &kp K
                 &kp L
-            >;
+            >,<&studio_unlock>;
         };
         layer2 {
+            display-name = "Layer 3";
             bindings = <
                 &kp S
                 &kp D
@@ -45,9 +45,10 @@
                 &kp J
                 &kp K
                 &kp L
-            >;
+            >,<&studio_unlock>;
         };
         layer3 {
+            display-name = "Layer 4";
             bindings = <
                 &kp S
                 &kp D
@@ -57,7 +58,7 @@
                 &kp J
                 &kp K
                 &kp L
-            >;
+            >,<&studio_unlock>;
         };
     };
 
