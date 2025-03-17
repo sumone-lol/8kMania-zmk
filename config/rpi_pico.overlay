@@ -1,3 +1,4 @@
+#define _STUDIO &studio_unlock
 / {
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
