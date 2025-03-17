@@ -1,7 +1,7 @@
 #include <behaviors.dtsi>
 #include <physical_layouts.dtsi>
 
-&studio_unlock ();
+&studio_unlock {};
 
 / {
     chosen {
