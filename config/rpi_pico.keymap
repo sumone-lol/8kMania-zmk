@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <physical_layouts.dtsi>
+#include <behaviors/studio_unlock.dtsi>
 
 / {
     chosen {
