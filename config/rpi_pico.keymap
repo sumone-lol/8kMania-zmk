@@ -1,6 +1,6 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
 #include <physical_layouts.dtsi>
-#include <behaviors/studio_unlock.dtsi>
 
 / {
     chosen {
